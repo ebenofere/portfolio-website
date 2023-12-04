@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #078080;
+    --white: #ffffff;
+    --text-color: #BCD9E9;
+    --black-color:#4c4c4c;
+    --tomato-color: #e74c3c;
+    --background-color: #ecf0f1;
+}
+
+.aboutHeader {
+    margin: 0.5em 1em;
+    font-size: 3em;
+    color: var(--black-color);
+}
+
+.aboutFlex {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding: 0 3em;
+    gap: 3em;
+}
+
+.aboutFirst {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: var(--black-color);
+}
+
+.aboutSub h3 {
+    font-size: 1.6em;
+}
+
+.aboutSub p {
+    font-style: italic;
+}
+
+.btnAbout {
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 30%;
+    text-align: center;
+}
+
+input, textarea {
+    border: none;
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 700px and up) */
+@media only screen and (max-width: 900px) {
+
+    .navbarLinks {
+        display: none;
+    }
+
+    .aboutFlex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .aboutFirst p, .aboutFlex img {
+        width: 80%;
+    }
+
+}

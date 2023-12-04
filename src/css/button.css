@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #078080;
+    --white: #ffffff;
+    --text-colour: #BCD9E9;
+    --tomato-color: #e74c3c;
+    --background-color: #ecf0f1;
+}
+
+.btnCustom {
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 8px 16px;
+    cursor: pointer;
+}

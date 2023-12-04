@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #078080;
+    --white: #ffffff;
+    --text-color: #BCD9E9;
+    --tomato-color: #e74c3c;
+    --background-color: #ecf0f1;
+}
+
+.hero {
+    background-image: url('../images/hero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.heroHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 85vh;
+    color: var(--white);
+    font-size: 4em;
+    font-weight: 500;
+}
